@@ -1,6 +1,6 @@
-# Welcome to your CDK TypeScript project!
+# AWS CDK with TypeScript!
 
-This is a blank project for TypeScript development with CDK.
+This is a project created following David Tucker's course on pluralsight.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
