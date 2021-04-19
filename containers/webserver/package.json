@@ -1,0 +1,23 @@
+{
+    "name": "express-webserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "build:ts": "tsc",
+        "docker:build": "docker build -t asoursosnet/poc-webserver .",
+        "docker:run": "docker run -p 8080:8080 -e SERVER_PORT=8080 -e API_BASE=https://wb50kcc6d5.execute-api.eu-central-1.amazonaws.com/ -d asoursosnet/poc-webserver"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "ejs": "^3.1.5",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.8",
+        "@types/node": "^14.10.0",
+        "typescript": "^4.0.2"
+    }
+}

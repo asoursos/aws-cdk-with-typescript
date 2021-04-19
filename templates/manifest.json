@@ -1,0 +1,111 @@
+{
+  "version": "9.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "TypescriptCdkStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "TypescriptCdkStack.template.json"
+      },
+      "metadata": {
+        "/TypescriptCdkStack/DocumentsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DocumentsBucket9EC9DEB9",
+            "trace": [
+              "new Bucket (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1331:22)",
+              "new TypescriptCdkStack (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\lib\\typescript-cdk-stack.ts:9:20)",
+              "Object.<anonymous> (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\bin\\typescript-cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/TypescriptCdkStack/DocumentsBucketNameExport": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DocumentsBucketNameExport",
+            "trace": [
+              "new TypescriptCdkStack (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\lib\\typescript-cdk-stack.ts:13:5)",
+              "Object.<anonymous> (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\bin\\typescript-cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/TypescriptCdkStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:22:24)",
+              "C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:140:5",
+              "visit (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:201:5)",
+              "visit (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:197:5)",
+              "injectMetadataResources (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:131:3)",
+              "Object.synthesize (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:188:23)",
+              "process.<anonymous> (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\source-map-support\\source-map-support.js:495:21)"
+            ]
+          }
+        ],
+        "/TypescriptCdkStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:31:27)",
+              "C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:140:5",
+              "visit (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:201:5)",
+              "visit (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:197:5)",
+              "injectMetadataResources (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:131:3)",
+              "Object.synthesize (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:188:23)",
+              "process.<anonymous> (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\@aws-cdk\\core\\lib\\app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (C:\\Users\\asoursos\\Desktop\\Education\\Pluralsight\\CDK\\typescript-cdk\\node_modules\\source-map-support\\source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
